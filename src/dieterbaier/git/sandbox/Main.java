@@ -5,6 +5,7 @@ import dieterbaier.git.sandbox.greeting.Greeter;
 
 /**
  * Line for commit1
+ * Line for commit2
  */
 public class Main {
 
