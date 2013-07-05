@@ -2,8 +2,7 @@ package dieterbaier.git.sandbox.greeting;
 
 public abstract class Greeter {
 
-  public static Greeter instance() {
-    final Gender gender = Gender.male;
+  public static Greeter instance(final Gender gender) {
     switch (gender) {
       default:
         return new DefaultGreeter();
