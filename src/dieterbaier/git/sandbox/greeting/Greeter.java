@@ -2,6 +2,10 @@ package dieterbaier.git.sandbox.greeting;
 
 public abstract class Greeter {
 
+  /**
+   * @param gender
+   * @return
+   */
   public static Greeter instance(final Gender gender) {
     switch (gender) {
       case female:
