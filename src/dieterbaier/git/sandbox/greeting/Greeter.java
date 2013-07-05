@@ -6,6 +6,8 @@ public abstract class Greeter {
     switch (gender) {
       case female:
         return new FemaleGreeter();
+      case male:
+        return new MaleGreeter();
       default:
         return new DefaultGreeter();
     }
