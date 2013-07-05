@@ -6,7 +6,7 @@ public class Main {
    * @param args
    */
   public static void main(final String[] args) {
-    System.out.println(new Greeter().sayHello("Dieter"));
+    System.out.println(new DefaultGreeter().sayHello("Dieter"));
   }
 
 }
