@@ -14,6 +14,8 @@ import dieterbaier.git.sandbox.greeting.Greeter;
  * Line for commitb8
  * Line for commitm1
  * Line for commitm2
+ * Line for commitb9
+ * Line for commitb10
  */
 public class Main {
 
