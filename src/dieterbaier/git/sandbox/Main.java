@@ -10,6 +10,7 @@ import dieterbaier.git.sandbox.greeting.Greeter;
  * Line for commitb4
  * Line for commitb5
  * Line for commitb6
+ * Line for commitb7
  */
 public class Main {
 
