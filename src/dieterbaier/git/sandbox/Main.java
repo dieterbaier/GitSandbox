@@ -10,6 +10,7 @@ public class Main {
    */
   public static void main(final String[] args) {
     System.out.println(Greeter.instance(Gender.male).sayHello("Baier"));
+
   }
 
 }
