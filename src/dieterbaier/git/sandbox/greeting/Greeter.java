@@ -4,6 +4,8 @@ public abstract class Greeter {
 
   public static Greeter instance(final Gender gender) {
     switch (gender) {
+      case female:
+        return new FemaleGreeter();
       default:
         return new DefaultGreeter();
     }
