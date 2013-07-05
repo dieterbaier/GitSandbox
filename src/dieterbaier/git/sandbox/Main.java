@@ -1,12 +1,14 @@
 package dieterbaier.git.sandbox;
 
+import dieterbaier.git.sandbox.greeting.Greeter;
+
 public class Main {
 
   /**
    * @param args
    */
   public static void main(final String[] args) {
-    System.out.println(new Greeter().sayHello("Dieter"));
+    System.out.println(Greeter.instance().sayHello("Dieter"));
   }
 
 }
