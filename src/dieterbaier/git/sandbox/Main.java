@@ -3,6 +3,9 @@ package dieterbaier.git.sandbox;
 import dieterbaier.git.sandbox.greeting.Gender;
 import dieterbaier.git.sandbox.greeting.Greeter;
 
+/**
+ * Line for commit1
+ */
 public class Main {
 
   /**
